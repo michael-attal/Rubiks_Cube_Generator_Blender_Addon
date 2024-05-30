@@ -19,7 +19,7 @@ class RubiksCubePanel(bpy.types.Panel):
 def register():
     bpy.utils.register_class(RubiksCubePanel)
     bpy.types.Scene.rubiks_cube_size = bpy.props.IntProperty(
-        name="Size", default=4, min=3, max=50
+        name="Size", default=3, min=3, max=50
     )
 
 
